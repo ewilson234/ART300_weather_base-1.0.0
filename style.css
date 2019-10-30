@@ -6,9 +6,11 @@
     display: none;
 }
 
-
-
 body{
+    background-color: #27272F;
+}
+
+.parent_1{
   background: linear-gradient(to left,transparent,#27272F), url("/img/photo-1559060036-7441babe74ad.jpeg") no-repeat; 
   min-height: 100%;  
 }
@@ -45,7 +47,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
     grid-column-gap: 20px;
-    margin: -750px 15px auto 1300px
+    margin: -750px 15px auto 1200px
 }
 
 .box{
@@ -59,4 +61,13 @@ body{
     width: 500px;
     display: grid;
     margin: -450px 15px auto 2000px;
+}
+
+.icon_03d{
+    background-image: url("http://openweathermap.org/img/wn/10d@2x.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100px; 
+    height: 200px;
 }
