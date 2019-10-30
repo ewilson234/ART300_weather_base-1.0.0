@@ -6,10 +6,7 @@
     display: none;
 }
 
-#map {
-	width: 600px;
-    height: 600px;
-}
+
 
 body{
   background: linear-gradient(to left,#27272F,transparent), url("/img/photo-1559060036-7441babe74ad.jpeg") no-repeat; 
@@ -43,12 +40,17 @@ body{
     font-size: 3em; 
 }
 
-.forcast_box{
-    border: 4px solid red; 
-    height: 100px; 
-    width: 70px;
+.forcast_box{  
+    width: 500px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    grid-column-gap: 20px;
+    margin: -600px 15px auto 1300px
+}
+
+.box{
+    border: 5px solid red;
+    height: 200px;
 }
 
 .radar{
@@ -56,5 +58,5 @@ body{
     height: 500px;
     width: 500px;
     display: grid;
-    margin: -1000px 15px auto 2000px;
+    margin: -350px 15px auto 2000px;
 }

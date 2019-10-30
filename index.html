@@ -29,13 +29,13 @@
 
 
 
-        <input placeholder="Enter Your ZIP Code" name="name" id="zip" />
-        <p id="zip_display"></p>
-
+       
 
         <div class="results" id="app">
             
-
+            <input placeholder="Enter Your ZIP Code" v-on:input="zip_trigger" name="name" id="zip" />
+            <p id="zip_display"></p>
+    
         <div class="date_and_time">
             <p>October 23, 2019</p>
             <p>9:30am</p>
@@ -48,19 +48,16 @@
                 <p>60</p>
             </div>
         
-        <div class="forcast_box">
-            hi
-        </div>
 
         <div class="forcast_box">
-            <div class="box1"></div>
-            <div class="box2"></div>
-            <div class="box3"></div>
-            <div class="box4"></div>
-            <div class="box5"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
         </div>
         <div class="radar">
-            <div class="map"></div>
+            <div class="map" id="map"></div>
         </div>
     
         
@@ -137,11 +134,11 @@
             <p>{{forecast[0].pres}} mb</p> -->
 
         </div>
-        <div id="map"></div>
+        
 
 
 
 
-        <script src="/js/script.js" type="module"></script>
+        <script src="/js/script.js" ></script>
     </body>
 </html>
