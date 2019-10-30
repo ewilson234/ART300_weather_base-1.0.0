@@ -1,0 +1,60 @@
+.degree_symbol:not(:empty)::after {
+    content: "°"
+}
+
+.owm-legend-item{
+    display: none;
+}
+
+#map {
+	width: 600px;
+    height: 600px;
+}
+
+body{
+  background: linear-gradient(to left,#27272F,transparent), url("/img/photo-1559060036-7441babe74ad.jpeg") no-repeat; 
+  min-height: 100%;  
+}
+
+.forecast{
+    font-family: Helvetica, sans-serif;
+    color: cornsilk;
+
+}
+
+.results{
+    font-family: Helvetica, sans-serif;
+    color: cornsilk;
+}
+
+.location_title{
+    text-align: center;
+    font-size: 3em; 
+}
+
+
+.degree{
+    font-size: 20em; 
+    text-align: center; 
+    margin: -385px auto auto auto; 
+}
+
+.date_and_time{
+    font-size: 3em; 
+}
+
+.forcast_box{
+    border: 4px solid red; 
+    height: 100px; 
+    width: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+}
+
+.radar{
+    border: 2px solid white;
+    height: 500px;
+    width: 500px;
+    display: grid;
+    margin: -1000px 15px auto 2000px;
+}
